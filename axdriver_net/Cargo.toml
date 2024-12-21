@@ -19,4 +19,4 @@ ixgbe = ["dep:ixgbe-driver"]
 spin = "0.9"
 log = "0.4"
 axdriver_base = { workspace = true }
-ixgbe-driver = { git = "https://github.com/Cisco-F/igb-driver-from-ixgbe.git", optional = true}
+ixgbe-driver = { git = "https://github.com/Cisco-F/igb-driver-from-ixgbe.git", branch = "main", optional = true}
